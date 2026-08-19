@@ -1,0 +1,17 @@
+{
+  "name": "universal-tool-agent-runtime",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A vendor-neutral Universal Tool Agent Runtime built from scratch with TypeScript and Node.js.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "scripts": {
+    "test": "node --test courses/week-01/lesson-01-agent-runtime-introduction/tests/lesson-one-runtime.test.ts",
+    "test:lesson-01": "node --test courses/week-01/lesson-01-agent-runtime-introduction/tests/lesson-one-runtime.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0"
+  }
+}

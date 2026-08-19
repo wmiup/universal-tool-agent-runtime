@@ -1,0 +1,7 @@
+interface:
+  display_name: "Create Agent Course Lesson"
+  short_description: "Scaffold one Agent course lesson safely"
+  default_prompt: "Use $create-agent-course-lesson to scaffold the next Agent course lesson in this repository."
+
+policy:
+  allow_implicit_invocation: true
